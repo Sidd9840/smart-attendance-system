@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Attendance Report</title>
+
+    <link rel="stylesheet" href="../CSS/style5.css">
+
+</head>
+
+<body>
+
+<div class="login-box">
+
+    <h2>Generate Attendance Report</h2>
+
+    <select id="reportType">
+
+        <option value="daily">
+            Daily Report
+        </option>
+
+        <option value="monthly">
+            Monthly Report
+        </option>
+
+    </select>
+
+    <br><br>
+
+    <input type="date" id="reportDate">
+
+    <br><br>
+
+    <input type="month" id="reportMonth">
+
+    <br><br>
+
+    <button onclick="generateReport()">
+        Generate Report
+    </button>
+
+    <br><br>
+
+    <table border="1"
+           width="100%"
+           id="reportTable">
+
+        <tr>
+
+            <th>Roll No</th>
+
+            <th>Total Classes</th>
+
+            <th>Present</th>
+
+            <th>Attendance %</th>
+
+            <th>Status</th>
+
+        </tr>
+
+    </table>
+<br>
+
+<a href="dashboard.html">
+    <button>Back to Dashboard</button>
+</a>
+</div>
+
+<script src="../JS/report.js"></script>
+
+</body>
+</html>

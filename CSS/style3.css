@@ -1,0 +1,148 @@
+body{
+font-family: Arial, sans-serif;
+background:#f2f4f7;
+display:flex;
+justify-content:center;
+align-items:flex-start;
+padding:40px 0;
+margin:0;
+}
+
+/* Box */
+
+.login-box{
+background:white;
+padding:30px;
+width:900px;
+max-width:95%;
+border-radius:12px;
+box-shadow:0 10px 25px rgba(0,0,0,0.15);
+text-align:center;
+}
+
+/* Heading */
+
+h2{
+margin-bottom:20px;
+font-size:26px;
+}
+
+h3{
+margin-top:25px;
+font-size:20px;
+}
+
+/* Input fields */
+
+input{
+width:100%;
+padding:12px;
+margin:10px 0;
+border:1px solid #ccc;
+border-radius:8px;
+font-size:14px;
+outline:none;
+box-sizing:border-box;
+}
+
+input:focus{
+border-color:#2ea44f;
+box-shadow:0 0 5px rgba(46,164,79,0.3);
+}
+
+/* Form button */
+
+form button{
+width:100%;
+padding:12px;
+background:#2ea44f;
+color:white;
+border:none;
+border-radius:8px;
+font-size:16px;
+cursor:pointer;
+margin-top:10px;
+transition:0.3s;
+}
+
+form button:hover{
+background:#24913f;
+}
+
+/* Table */
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:15px;
+font-size:14px;
+overflow-x:auto;
+}
+
+th{
+background:#2ea44f;
+color:white;
+}
+
+th, td{
+padding:10px;
+text-align:center;
+border:1px solid #ddd;
+}
+
+tr:nth-child(even){
+background:#f2f2f2;
+}
+
+tr:hover{
+background:#eaf7ee;
+}
+
+/* Table text fix */
+
+td{
+white-space:normal;
+word-break:break-word;
+}
+
+/* Delete button */
+
+.delete-btn{
+background:#e74c3c;
+color:white;
+width:auto;
+padding:6px 10px;
+border:none;
+border-radius:5px;
+cursor:pointer;
+margin:2px;
+}
+
+.delete-btn:hover{
+background:#c0392b;
+}
+
+/* QR button */
+
+.qr-btn{
+background:#007bff;
+color:white;
+width:auto;
+padding:6px 10px;
+border:none;
+border-radius:5px;
+cursor:pointer;
+margin:2px;
+}
+
+.qr-btn:hover{
+background:#0056b3;
+}
+
+/* QR code box */
+
+#qrcode{
+margin-top:25px;
+display:flex;
+justify-content:center;
+}
