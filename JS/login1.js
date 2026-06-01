@@ -14,8 +14,7 @@ document.getElementById("loginForm")
     {
         alert("Login Successful");
 
-        window.location.href =
-        "dashboard.html";
+        window.location.href = "HTML/dashboard.html";
     }
     else
     {
