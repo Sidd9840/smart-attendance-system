@@ -1,4 +1,4 @@
-# Smart Attendance System
+# SMART ATTENDANCE SYSTEM
 
 This is a frontend project made using HTML, CSS, and JavaScript.
 
