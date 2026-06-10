@@ -50,6 +50,12 @@ body{
     background:#2a5298;
     transform:translateY(-3px);
 }
+.buttons{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+}
 
 .features{
     display:flex;
