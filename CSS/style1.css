@@ -1,102 +1,53 @@
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Segoe UI, Arial, sans-serif;
-}
-
 body{
-height:100vh;
-background:linear-gradient(135deg,#1e3c72,#2a5298);
-display:flex;
-justify-content:center;
-align-items:center;
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:linear-gradient(135deg,#1e3c72,#2a5298);
 }
 
-/* login card */
-
-.login-container{
-width:400px;
-background:white;
-padding:40px;
-border-radius:12px;
-box-shadow:0 15px 35px rgba(0,0,0,0.4);
-text-align:center;
+.hero{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
-/* heading */
-
-.login-container h1{
-font-size:26px;
-color:#1e3c72;
-margin-bottom:8px;
+.content{
+    text-align:center;
+    background:white;
+    padding:50px;
+    border-radius:20px;
+    width:600px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.3);
 }
 
-.login-container h2{
-font-size:18px;
-color:#555;
-margin-bottom:30px;
+.content h1{
+    color:#1e3c72;
+    font-size:42px;
+    margin-bottom:20px;
 }
 
-/* input fields */
-
-.login-container input{
-width:100%;
-padding:12px;
-margin:10px 0;
-border:1px solid #ccc;
-border-radius:6px;
-font-size:14px;
-transition:0.3s;
+.content p{
+    color:#555;
+    font-size:18px;
+    margin-bottom:30px;
 }
 
-.login-container input:focus{
-border-color:#1e3c72;
-box-shadow:0 0 5px rgba(30,60,114,0.5);
-outline:none;
+.buttons{
+    display:flex;
+    justify-content:center;
+    gap:20px;
 }
 
-/* button */
-
-.login-container button{
-width:100%;
-padding:12px;
-margin-top:15px;
-border:none;
-border-radius:6px;
-background:#1e3c72;
-color:white;
-font-size:16px;
-cursor:pointer;
-transition:0.3s;
+button{
+    background:#1e3c72;
+    color:white;
+    border:none;
+    padding:15px 30px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:16px;
 }
 
-.login-container button:hover{
-background:#16305a;
-transform:scale(1.03);
-}
-
-/* responsive */
-
-@media(max-width:500px){
-.login-container{
-width:90%;
-}
-}
-.back-btn{
-display:block;
-width:100%;
-padding:12px;
-background:#1e3c72;
-color:white;
-text-decoration:none;
-border-radius:6px;
-margin-top:15px;
-font-size:16px;
-box-sizing:border-box;
-text-align:center;
-}
-
-.back-btn:hover{
-background:#16305a;
+button:hover{
+    background:#2a5298;
 }
