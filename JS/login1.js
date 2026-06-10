@@ -1,15 +1,21 @@
 document.getElementById("loginForm")
-.addEventListener("submit", function(e) {
+.addEventListener("submit", function(e){
 
     e.preventDefault();
 
-    var username = document.getElementById("username").value;
-    var password = document.getElementById("password").value;
+    var username =
+    document.getElementById("username").value;
 
-    if(username === "teacher" && password === "1234")
+    var password =
+    document.getElementById("password").value;
+
+    if(username === "teacher" &&
+       password === "1234")
     {
         alert("Login Successful");
-        window.location.href = "dashboard.html";
+
+        window.location.href =
+        "dashboard.html";
     }
     else
     {
