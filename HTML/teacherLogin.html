@@ -6,22 +6,27 @@
 </head>
 <body>
 
-<div class="login-container">
+<div class="hero">
+    <div class="content">
 
-    <h1>Smart Attendance System</h1>
-    <h2>Teacher Login</h2>
+        <h1>Teacher Login</h1>
+        <p>Login to manage attendance system</p>
 
-    <form id="loginForm">
+        <form id="teacherLoginForm">
+            <input type="text" id="username" placeholder="Enter Username" required>
+            <input type="password" id="password" placeholder="Enter Password" required>
 
-        <input type="text" placeholder="Username" required>
+            <button type="submit">Login</button>
+        </form>
 
-        <input type="password" placeholder="Password" required>
+        <p>
+            <a href="../index.html">Back to Home</a>
+        </p>
 
-        <button type="submit">Login</button>
-
-    </form>
-
+    </div>
 </div>
+
+<script src="../JS/login1.js"></script>
 
 </body>
 </html>
