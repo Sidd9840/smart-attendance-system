@@ -1,46 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
     <title>Mark Attendance</title>
-    <link rel="stylesheet" href="../CSS/style4.css">
+    <link rel="stylesheet" href="../CSS/style1.css">
 </head>
-
 <body>
 
-    <div class="login-box">
+<div class="hero">
 
-        <h2>Mark Attendance</h2>
+    <div class="content">
 
-        <form onsubmit="return submitAttendance()">
+        <h1>Mark Attendance</h1>
 
-            <input type="text" id="roll" placeholder="Roll Number">
+        <table id="attendanceTable">
+            <tr>
+                <th>Name</th>
+                <th>Roll No</th>
+                <th>Present</th>
+            </tr>
+        </table>
 
-            <select id="status">
-                <option>Present</option>
-                <option>Absent</option>
-            </select>
-
-            <button type="button" onclick="checkLocation()">
-                Verify Location
+        <div class="buttons">
+            <button onclick="saveAttendance()">
+                Save Attendance
             </button>
+        </div>
 
-            <p id="location-result"></p>
+        <div class="buttons">
+            <a href="dashboard.html">
+                <button type="button">
+                    Back to Dashboard
+                </button>
+            </a>
+        </div>
 
-            <button type="submit">
-                Submit Attendance
-            </button>
-
-        </form>
-        <br>
-
-        <a href="dashboard.html">
-            <button>Back to Dashboard</button>
-        </a>
     </div>
 
-    <script src="../JS/markAttendance.js"></script>
+</div>
+
+<script src="../JS/attendance.js"></script>
 
 </body>
-
 </html>
